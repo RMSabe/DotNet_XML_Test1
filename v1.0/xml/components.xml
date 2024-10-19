@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components>
+	<resistor_type prefix="R">
+		<component name="r_10" type="resistor" text="10 R Resistor"/>
+		<component name="r_22" type="resistor" text="22 R Resistor"/>
+		<component name="r_33" type="resistor" text="33 R Resistor"/>
+		<component name="r_47" type="resistor" text="47 R Resistor"/>
+		<component name="r_56" type="resistor" text="56 R Resistor"/>
+		<component name="r_68" type="resistor" text="68 R Resistor"/>
+		<component name="r_82" type="resistor" text="82 R Resistor"/>
+		<component name="r_100" type="resistor" text="100 R Resistor"/>
+		<component name="r_220" type="resistor" text="220 R Resistor"/>
+		<component name="r_330" type="resistor" text="330 R Resistor"/>
+		<component name="r_470" type="resistor" text="470 R Resistor"/>
+		<component name="r_560" type="resistor" text="560 R Resistor"/>
+		<component name="r_680" type="resistor" text="680 R Resistor"/>
+		<component name="r_820" type="resistor" text="820 R Resistor"/>
+		<component name="r_1k" type="resistor" text="1 kR Resistor"/>
+		<component name="r_2k2" type="resistor" text="2.2 kR Resistor"/>
+		<component name="r_3k3" type="resistor" text="3.3 kR Resistor"/>
+		<component name="r_4k7" type="resistor" text="4.7 kR Resistor"/>
+		<component name="r_5k6" type="resistor" text="5.6 kR Resistor"/>
+		<component name="r_6k8" type="resistor" text="6.8 kR Resistor"/>
+		<component name="r_8k2" type="resistor" text="8.2 kR Resistor"/>
+		<component name="r_10k" type="resistor" text="10 kR Resistor"/>
+		<component name="r_22k" type="resistor" text="22 kR Resistor"/>
+		<component name="r_33k" type="resistor" text="33 kR Resistor"/>
+		<component name="r_47k" type="resistor" text="47 kR Resistor"/>
+		<component name="r_56k" type="resistor" text="56 kR Resistor"/>
+		<component name="r_68k" type="resistor" text="68 kR Resistor"/>
+		<component name="r_82k" type="resistor" text="82 kR Resistor"/>
+		<component name="r_100k" type="resistor" text="100 kR Resistor"/>
+		<component name="r_220k" type="resistor" text="220 kR Resistor"/>
+		<component name="r_330k" type="resistor" text="330 kR Resistor"/>
+		<component name="r_470k" type="resistor" text="470 kR Resistor"/>
+		<component name="r_560k" type="resistor" text="560 kR Resistor"/>
+		<component name="r_680k" type="resistor" text="680 kR Resistor"/>
+		<component name="r_820k" type="resistor" text="820 kR Resistor"/>
+		<component name="r_1meg" type="resistor" text="1 MR Resistor"/>
+		<component name="r_2meg2" type="resistor" text="2.2 MR Resistor"/>
+		<component name="r_3meg3" type="resistor" text="3.3 MR Resistor"/>
+		<component name="r_4meg7" type="resistor" text="4.7 MR Resistor"/>
+		<component name="r_5meg6" type="resistor" text="5.6 MR Resistor"/>
+		<component name="r_6meg8" type="resistor" text="6.8 MR Resistor"/>
+		<component name="r_8meg2" type="resistor" text="8.2 MR Resistor"/>
+		<component name="r_10meg" type="resistor" text="10 MR Resistor"/>
+	</resistor_type>
+
+	<capacitor_type prefix="C">
+		<component name="c_1n" type="capacitor" text="1 nF Capacitor" subtype="non_polarized"/>
+		<component name="c_2n2" type="capacitor" text="2.2 nF Capacitor" subtype="non_polarized"/>
+		<component name="c_4n7" type="capacitor" text="4.7 nF Capacitor" subtype="non_polarized"/>
+		<component name="c_10n" type="capacitor" text="10 nF Capacitor" subtype="non_polarized"/>
+		<component name="c_22n" type="capacitor" text="22 nF Capacitor" subtype="non_polarized"/>
+		<component name="c_47n" type="capacitor" text="47 nF Capacitor" subtype="non_polarized"/>
+		<component name="c_100n" type="capacitor" text="100 nF Capacitor" subtype="non_polarized"/>
+		<component name="c_220n" type="capacitor" text="220 nF Capacitor" subtype="non_polarized"/>
+		<component name="c_470n" type="capacitor" text="470 nF Capacitor" subtype="non_polarized"/>
+		<component name="cp_1u" type="capacitor" text="1 uF Polarized Capacitor" subtype="polarized"/>
+		<component name="cp_10u" type="capacitor" text="10 uF Polarized Capacitor" subtype="polarized"/>
+		<component name="cp_22u" type="capacitor" text="22 uF Polarized Capacitor" subtype="polarized"/>
+		<component name="cp_47u" type="capacitor" text="47 uF Polarized Capacitor" subtype="polarized"/>
+		<component name="cp_100u" type="capacitor" text="100 uF Polarized Capacitor" subtype="polarized"/>
+		<component name="cp_1m" type="capacitor" text="1 mF Polarized Capacitor" subtype="polarized"/>
+	</capacitor_type>
+
+	<inductor_type prefix="L">
+		<component name="l_1u" type="inductor" text="1 uH Inductor"/>
+	</inductor_type>
+
+	<diode_type prefix="D">
+		<component name="d_1n4148" type="diode" text="1N4148 Diode" subtype="standard" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/15021/PHILIPS/1N4148.html"/>
+		<component name="d_1n4007" type="diode" text="1N4007 Diode" subtype="standard" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/449618/NJSEMI/1N4007.html"/>
+		<component name="d_1n5333" type="diode" text="1N5333 Zener Diode" subtype="zener" urldatasheet="https://www.onsemi.com/pdf/datasheet/1n5333b-d.pdf" vbreakdown="3v3"/>
+		<component name="d_ysl_r531r3d_d2" type="diode" text="YSL-R531R3D-D2 Red LED" subtype="led" urldatasheet="https://www.sparkfun.com/datasheets/Components/LED/COM-09590-YSL-R531R3D-D2.pdf" color="red"/>
+	</diode_type>
+
+	<transistor_type>
+		<component name="q_bc328" type="transistor" text="BC328 PNP BJT Transistor" subtype="bjt" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/50725/FAIRCHILD/BC328.html" prefix="Q" polarity="pnp"/>
+		<component name="q_bc338" type="transistor" text="BC338 NPN BJT Transistor" subtype="bjt" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/601309/FAIRCHILD/BC338.html" prefix="Q" polarity="npn"/>
+		<component name="q_tip41" type="transistor" text="TIP41 NPN BJT Transistor" subtype="bjt" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/2782/MOSPEC/TIP41.html" prefix="Q" polarity="npn"/>
+		<component name="q_tip42" type="transistor" text="TIP42 PNP BJT Transistor" subtype="bjt" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/2786/MOSPEC/TIP42.html" prefix="Q" polarity="pnp"/>
+		<component name="m_irf640n" type="transistor" text="IRF640N N-Channel MOSFET Transistor" subtype="mosfet" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/68219/IRF/IRF640N.html" prefix="M" polarity="n_channel"/>
+		<component name="m_irf9640" type="transistor" text="IRF9640 P-Channel MOSFET Transistor" subtype="mosfet" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/68336/IRF/IRF9640.html" prefix="M" polarity="p_channel"/>
+		<component name="j_j111" type="transistor" text="J111 N-Channel JFET Transistor" subtype="jfet" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/180923/FAIRCHILD/J111.html" prefix="J" polarity="n_channel"/>
+		<component name="j_j176" type="transistor" text="J176 P-Channel JFET Transistor" subtype="jfet" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/53143/FAIRCHILD/J176.html" prefix="J" polarity="p_channel"/>
+	</transistor_type>
+
+	<potentiometer_type prefix="VR">
+		<component name="vr_50k" type="potentiometer" text="50 kR Single Channel Potentiometer" subtype="single"/>
+		<component name="vr_100k" type="potentiometer" text="100 kR Single Channel Potentiometer" subtype="single"/>
+		<component name="vrd_50k" type="potentiometer" text="50 kR Dual Channel Potentiometer" subtype="dual"/>
+		<component name="vrd_100k" type="potentiometer" text="100 kR Dual Channel Potentiometer" subtype="dual"/>
+	</potentiometer_type>
+
+	<ic_type prefix="U">
+		<component name="u_lm741" type="ic" text="LM741 Operational Amplifier" subtype="opamp" urldatasheet="https://www.ti.com/lit/ds/symlink/lm741.pdf"/>
+		<component name="u_ca3140" type="ic" text="CA3140 Operational Amplifier" subtype="opamp" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/66329/INTERSIL/CA3140.html"/>
+		<component name="u_tl072" type="ic" text="TL072 Dual Precision Operational Amplifier" subtype="opamp" urldatasheet="https://www.ti.com/lit/ds/symlink/tl072.pdf"/>
+		<component name="u_lm324n" type="ic" text="LM324N Quad Operational Amplifier" subtype="opamp" urldatasheet="https://www.ti.com/lit/ds/symlink/lm324-n.pdf?ts=1728032518784"/>
+		<component name="u_lm386" type="ic" text="LM386 Audio Amplifier" subtype="specific" urldatasheet="https://www.ti.com/lit/ds/symlink/lm386.pdf"/>
+		<component name="u_tda2822" type="ic" text="TDA2822 Dual-Channel Audio Amplifier" subtype="specific" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/25055/STMICROELECTRONICS/TDA2822.html"/>
+		<component name="u_tda2030" type="ic" text="TDA2030 Audio Amplifier" subtype="specific" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/25043/STMICROELECTRONICS/TDA2030.html"/>
+		<component name="u_ne555" type="ic" text="NE555 Timer" subtype="specific" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/53594/FAIRCHILD/NE555.html"/>
+		<component name="u_cd4510" type="ic" text="CD4510 Binary-Decimal Counter" subtype="specific" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/26904/TI/CD4510.html"/>
+		<component name="u_cd4511" type="ic" text="CD4511 Common-Cathode 7-Segment Display Binary-To-Decimal Converter" subtype="specific" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/26905/TI/CD4511.html"/>
+		<component name="u_74ls47" type="ic" text="74LS47 Common-Anode 7-Segment Display Binary-To-Decimal Converter" subtype="specific" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/51080/FAIRCHILD/74LS47.html"/>
+		<component name="u_7408" type="ic" text="7408 AND Logic Gate" subtype="logic" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/50893/FAIRCHILD/7408.html"/>
+		<component name="u_cd4071" type="ic" text="CD4071 OR Logic Gate" subtype="logic" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/50863/FAIRCHILD/CD4071.html"/>
+		<component name="u_7486" type="ic" text="7486 XOR Logic Gate" subtype="logic" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/50914/FAIRCHILD/7486.html"/>
+		<component name="u_7404" type="ic" text="7404 NOT Logic Gate" subtype="logic" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/23020/STMICROELECTRONICS/7404.html"/>
+		<component name="u_cd4011" type="ic" text="CD4011 NAND Logic Gate" subtype="logic" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/26846/TI/CD4011.html"/>
+		<component name="u_7402" type="ic" text="7402 NOR Logic Gate" subtype="logic" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/50887/FAIRCHILD/7402.html"/>
+		<component name="u_cd4077" type="ic" text="CD4077 XNOR Logic Gate" subtype="logic" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/26895/TI/CD4077.html"/>
+		<component name="u_dac0808lcn" type="ic" text="DAC0808LCN 8-Bit Digital-To-Analog Converter" subtype="specific" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/177133/NSC/DAC0808LCN.html"/>
+		<component name="u_mcp4725" type="ic" text="MCP4725 12-Bit Digital-To-Analog Converter" subtype="specific" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/1692417/MICROCHIP/MCP4725.html"/>
+		<component name="u_pcf8574" type="ic" text="PCF8574 Digital I/O Expander" subtype="specific" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/18212/PHILIPS/PCF8574.html"/>
+		<component name="u_ad9833" type="ic" text="AD9833 Signal Generator" subtype="specific" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/549388/AD/AD9833.html"/>
+		<component name="u_st7920" type="ic" text="ST7920 Graphic Monochrome LCD Display Driver" subtype="specific" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/326219/SITRONIX/ST7920.html"/>
+		<component name="u_atmega328p" type="ic" text="ATMEGA328P 8-Bit AVR Microcontroller Unit" subtype="mcu" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/pdf/313656/ATMEL/ATmega328P.html"/>
+		<component name="u_atsam3x8e" type="ic" text="ATSAM3X8E 32-Bit ARM Microcontroller Unit" subtype="mcu" urldatasheet="https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-11057-32-bit-Cortex-M3-Microcontroller-SAM3X-SAM3A_Datasheet.pdf"/>
+		<component name="u_atsamd21" type="ic" text="ATSAMD21 32-Bit ARM Microcontroller Unit" subtype="mcu" urldatasheet="https://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_DataSheet_DS40001882F.pdf"/>
+		<component name="u_rp2040" type="ic" text="RP2040 Dual-Core 32-Bit ARM Microcontroller Unit" subtype="mcu" urldatasheet="https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"/>
+		<component name="u_esp32_d0wd" type="ic" text="ESP32-D0WD 32-Bit Xtensa Microcontroller Unit" subtype="mcu" urldatasheet="https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf"/>
+		<component name="u_bcm2837" type="ic" text="BCM2837 Quad-Core 64-Bit ARM Microprocessor Unit" subtype="mpu" urldatasheet="https://www.alldatasheet.com/datasheet-pdf/download/1572343/BOARDCOM/BCM2837.html"/>
+		<component name="u_bcm2711" type="ic" text="BCM2711 Quad-Core 64-Bit ARM Microprocessor Unit" subtype="mpu" urldatasheet="https://datasheets.raspberrypi.com/bcm2711/bcm2711-peripherals.pdf"/>
+		<component name="u_rk3568" type="ic" text="RK3568 Quad-Core 64-Bit ARM Microprocessor Unit" subtype="mpu" urldatasheet="https://dl.radxa.com/rock3/docs/hw/datasheet/Rockchip-RK3568-Datasheet-V1.0-20201210.pdf"/>
+		<component name="u_jh7110" type="ic" text="JH7110 Quad-Core 64-Bit RISC-V Microprocessor Unit" subtype="mpu" urldatasheet="https://doc-en.rvspace.org/JH7110/PDF/JH7110_Datasheet.pdf"/>
+		<component name="u_n100" type="ic" text="N100 Quad-Core 64-Bit x86 Microprocessor Unit" subtype="mpu" urldatasheet="https://www.intel.com/content/www/us/en/products/sku/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz/specifications.html"/>
+	</ic_type>
+</components>

@@ -1,0 +1,106 @@
+﻿<!--
+	DotNet Core XML Test Code: Component Stock
+
+	Author: Rafael Sabe
+	Email: rafaelmsabe@gmail.com
+-->
+
+<Page x:Class="CompStock.MainPage"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:local="clr-namespace:CompStock"
+	mc:Ignorable="d">
+
+	<Grid>
+		<TextBlock
+			Name="_TextBlock"
+			HorizontalAlignment="Center"
+			VerticalAlignment="Top"
+			Margin="50"
+			FontSize="35"
+			TextAlignment="Center"
+			Text="Component Stock Management App"/>
+
+		<Button
+			Name="_Button1"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Width="200"
+			Height="20"
+			Margin="210, 100"
+			Content="List Known Components"
+			Click="onButton1Clicked"/>
+
+		<Button
+			Name="_Button2"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Width="200"
+			Height="20"
+			Margin="430, 100"
+			Content="List Known Circuits"
+			Click="onButton2Clicked"/>
+
+		<Button
+			Name="_Button3"
+			HorizontalAlignment="Right"
+			VerticalAlignment="Bottom"
+			Width="200"
+			Height="20"
+			Margin="430, 100"
+			Content="List Stock Components"
+			Click="onButton3Clicked"/>
+
+		<Button
+			Name="_Button4"
+			HorizontalAlignment="Right"
+			VerticalAlignment="Bottom"
+			Width="200"
+			Height="20"
+			Margin="210, 100"
+			Content="List Available Circuits"
+			Click="onButton4Clicked"/>
+
+		<Button
+			Name="_Button5"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Width="200"
+			Height="20"
+			Margin="210, 70"
+			Content="Buy Components"
+			Click="onButton5Clicked"/>
+
+		<Button
+			Name="_Button6"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Width="200"
+			Height="20"
+			Margin="430, 70"
+			Content="Use Components"
+			Click="onButton6Clicked"/>
+
+		<Button
+			Name="_Button7"
+			HorizontalAlignment="Right"
+			VerticalAlignment="Bottom"
+			Width="200"
+			Height="20"
+			Margin="430, 70"
+			Content="Buy Circuit Components"
+			Click="onButton7Clicked"/>
+
+		<Button
+			Name="_Button8"
+			HorizontalAlignment="Right"
+			VerticalAlignment="Bottom"
+			Width="200"
+			Height="20"
+			Margin="210, 70"
+			Content="Build Circuit"
+			Click="onButton8Clicked"/>
+	</Grid>
+</Page>

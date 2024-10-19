@@ -1,0 +1,66 @@
+﻿<!--
+	DotNet Core XML Test Code: Component Stock
+
+	Author: Rafael Sabe
+	Email: rafaelmsabe@gmail.com
+-->
+
+<Page x:Class="CompStock.ListPage"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:local="clr-namespace:CompStock"
+	mc:Ignorable="d">
+
+	<Grid>
+		<TextBlock
+			Name="_TextBlock1"
+			HorizontalAlignment="Center"
+			VerticalAlignment="Top"
+			Margin="20"
+			FontSize="20"
+			TextAlignment="Center"/>
+
+		<TextBlock
+			Name="_TextBlock2"
+			HorizontalAlignment="Center"
+			VerticalAlignment="Bottom"
+			Margin="130"
+			FontSize="16"
+			TextAlignment="Left"
+			Text="Quantity:"/>
+
+		<TextBox
+			Name="_TextBox"
+			HorizontalAlignment="Center"
+			VerticalAlignment="Bottom"
+			Width="1200"
+			Height="30"
+			Margin="100"
+			FontSize="16"
+			TextAlignment="Center"/>
+
+		<ListBox
+			Name="_ListBox"
+			HorizontalAlignment="Center"
+			VerticalAlignment="Top"
+			Width="1200"
+			Height="400"
+			Margin="50"
+			HorizontalContentAlignment="Center"
+			SelectionMode="Single"
+			SelectionChanged="onListBoxSelectionChanged">
+		</ListBox>
+
+		<Button
+			Name="_Button1"
+			HorizontalAlignment="Center"
+			VerticalAlignment="Bottom"
+			Width="200"
+			Height="20"
+			Margin="70"
+			Content="Return"
+			Click="onButton1Clicked"/>
+	</Grid>
+</Page>

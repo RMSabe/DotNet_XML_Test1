@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuits>
+	<circuit name="circuit_wienbridge_1" text="Wien Bridge Sine Wave Oscillator">
+		<comp count="1" type="ic" subtype="opamp"/>
+		<comp count="2" type="resistor"/>
+		<comp count="2" type="capacitor" subtype="non_polarized"/>
+		<comp count="1" name="r_10k"/>
+		<comp count="1" name="r_22k"/>
+	</circuit>
+
+	<circuit name="circuit_wienbridge_2" text="Adjustable Frequency Wien Bridge Sine Wave Oscillator">
+		<comp count="1" type="ic" subtype="opamp"/>
+		<comp count="2" type="potentiometer" subtype="dual"/>
+		<comp count="2" type="capacitor" subtype="non_polarized"/>
+		<comp count="1" name="r_10k"/>
+		<comp count="1" name="r_22k"/>
+	</circuit>
+
+	<circuit name="circuit_squareosc_1" text="Square Wave Oscillator">
+		<comp count="1" type="ic" subtype="opamp"/>
+		<comp count="3" type="resistor"/>
+		<comp count="1" type="capacitor" subtype="non_polarized"/>
+	</circuit>
+
+	<circuit name="circuit_squareosc_2" text="Adjustable Frequency Square Wave Oscillator">
+		<comp count="1" type="ic" subtype="opamp"/>
+		<comp count="2" type="potentiometer" subtype="single"/>
+		<comp count="1" type="capacitor" subtype="non_polarized"/>
+	</circuit>
+
+	<circuit name="circuit_triangleosc_1" text="Triangle Wave Oscillator">
+		<comp count="2" type="ic" subtype="opamp"/>
+		<comp count="1" type="capacitor" subtype="non_polarized"/>
+		<comp count="3" type="resistor"/>
+	</circuit>
+
+	<circuit name="circuit_triangleosc_2" text="Adjustable Frequency Triangle Wave Oscillator">
+		<comp count="2" type="ic" subtype="opamp"/>
+		<comp count="1" type="capacitor" subtype="non_polarized"/>
+		<comp count="1" type="potentiometer" subtype="single"/>
+		<comp count="2" type="resistor"/>
+	</circuit>
+
+	<circuit name="circuit_555osc" text="555 Oscillator">
+		<comp count="1" name="u_ne555"/>
+		<comp count="2" type="resistor"/>
+		<comp count="1" type="capacitor"/>
+	</circuit>
+
+	<circuit name="circuit_lfoam_1" text="Low Frequency Amplitude Modulator version 1">
+		<comp count="6" type="ic" subtype="opamp"/>
+		<comp count="4" name="vr_50k"/>
+		<comp count="3" name="c_470n"/>
+		<comp count="1" name="cp_100u"/>
+		<comp count="1" name="cp_10u"/>
+		<comp count="4" name="r_100k"/>
+		<comp count="1" name="r_56k"/>
+		<comp count="1" name="r_22k"/>
+		<comp count="3" name="r_1k"/>
+		<comp count="5" name="r_10k"/>
+		<comp count="1" name="r_4k7"/>
+		<comp count="2" name="d_1n4148"/>
+		<comp count="2" name="q_bc328"/>
+	</circuit>
+
+	<circuit name="circuit_lfoam_2" text="Low Frequency Amplitude Modulator version 1.1">
+		<comp count="7" type="ic" subtype="opamp"/>
+		<comp count="3" name="vr_50k"/>
+		<comp count="1" name="c_470n"/>
+		<comp count="1" name="cp_100u"/>
+		<comp count="2" name="cp_10u"/>
+		<comp count="9" name="r_1k"/>
+		<comp count="1" name="r_68k"/>
+		<comp count="1" name="r_330k"/>
+		<comp count="1" name="r_2k2"/>
+		<comp count="1" name="r_4k7"/>
+		<comp count="2" name="r_47k"/>
+		<comp count="1" name="r_56k"/>
+		<comp count="4" name="r_10k"/>
+		<comp count="1" name="r_3k3"/>
+		<comp count="2" name="d_1n4148"/>
+		<comp count="2" name="q_bc328"/>
+	</circuit>
+
+	<circuit name="circuit_transistoropamp" text="Transistorized Operational Amplifier">
+		<comp count="5" name="q_bc328"/>
+		<comp count="6" name="q_bc338"/>
+		<comp count="2" name="j_j176"/>
+		<comp count="2" name="d_1n4148"/>
+		<comp count="1" name="vr_50k"/>
+		<comp count="1" name="r_4k7"/>
+	</circuit>
+
+	<circuit name="circuit_classdamp" text="Class D Audio Amplifier">
+		<comp count="6" type="ic" subtype="opamp"/>
+		<comp count="2" name="m_irf640n"/>
+		<comp count="2" name="m_irf9640"/>
+		<comp count="2" name="l_1u"/>
+		<comp count="2" name="cp_47u"/>
+		<comp count="5" name="r_1k"/>
+		<comp count="1" name="cp_100u"/>
+		<comp count="1" name="r_4k7"/>
+		<comp count="1" name="cp_10u"/>
+		<comp count="1" type="potentiometer" subtype="single"/>
+		<comp count="1" name="c_10n"/>
+		<comp count="1" name="r_5k6"/>
+		<comp count="1" name="r_100k"/>
+	</circuit>
+
+	<circuit name="circuit_binarydecimalcounter" text="Binary-Decimal Counter">
+		<comp count="1" name="u_cd4510"/>
+		<comp count="1" name="u_ne555"/>
+		<comp count="1" type="capacitor"/>
+		<comp count="2" type="resistor"/>
+	</circuit>
+</circuits>

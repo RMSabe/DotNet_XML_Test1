@@ -1,0 +1,16 @@
+﻿<!--
+	DotNet Core XML Test Code: Component Stock
+
+	Author: Rafael Sabe
+	Email: rafaelmsabe@gmail.com
+-->
+
+<Application x:Class="CompStock.App"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="clr-namespace:CompStock"
+	StartupUri="MainWindow.xaml">
+
+	<Application.Resources>
+	</Application.Resources>
+</Application>
